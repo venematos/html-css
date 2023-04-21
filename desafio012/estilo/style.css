@@ -1,7 +1,24 @@
+@charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
 
+}
 
+html,body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
 
 #cabeçalho {
     background-color: black;
@@ -11,22 +28,69 @@
     text-align: center;
     padding: 5px;
 
-    
-    height: 400px;
 }
 
-#cabeçalho>p>a:hover {
-        text-decoration: wavy;
-        color: #00ffd5b9;
-        background-color: blueviolet;
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-#rodape{
-    background-color: aquamarine;
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(49, 13, 13, 0.651);
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
     text-align: center;
-}
-
-#rodape>p>a:hover {
-    text-decoration: dotted;
-    background-color: rgb(0, 255, 42);
+    padding: 6px;
 }

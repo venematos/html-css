@@ -1,0 +1,32 @@
+
+
+
+
+
+#cabeçalho {
+    background-color: black;
+    color: white;
+    
+
+    text-align: center;
+    padding: 5px;
+
+    
+    height: 400px;
+}
+
+#cabeçalho>p>a:hover {
+        text-decoration: wavy;
+        color: #00ffd5b9;
+        background-color: blueviolet;
+}
+
+#rodape{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#rodape>p>a:hover {
+    text-decoration: dotted;
+    background-color: rgb(0, 255, 42);
+}

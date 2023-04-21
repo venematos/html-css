@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sigmar&display=swap');
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+
+ :root {
+
+        --fonte1: 'Dancing Script', cursive;
+        --fonte2: 'Vina Sans', cursive;
+
+ }
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,11 +24,15 @@
 html,body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--fonte2);
+    
 }
 
 header > p {
@@ -46,21 +65,24 @@ section {
 
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal {
     background-color: white;
     color: black;
+    
 }
 
 section.imagem {
     background-color: rgb(61, 60, 60);
     color: white;
+    
 }
 
 section.imagem > p {
     background-color: rgba(49, 13, 13, 0.651);
-    width: 400px;
+    display: inline-block;
 }
 
 
